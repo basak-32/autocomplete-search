@@ -13,7 +13,7 @@ searchInput.addEventListener('input', event => {
 })
 
 const fetchData = async (text) => {
-  const data = await fetch('http://dummy.restapiexample.com/api/v1/employees');
+  const data = await fetch('https://dummy.restapiexample.com/api/v1/employees');
   data.json().then(res => {
     // console.log(res);
     let employeeList = res.data;
