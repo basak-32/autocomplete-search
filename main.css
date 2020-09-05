@@ -1,0 +1,14 @@
+input {
+  border: 2px solid green;
+  width: 100%;
+}
+
+.list-item {
+  border: 1px solid grey;
+  background: rgb(137, 186, 233);
+}
+
+.list-item span {
+  margin-right: 10px;
+}
+
